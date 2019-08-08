@@ -1,0 +1,24 @@
+<div class="home-page">
+
+  <div class="banner" *appShowAuthed="false">
+    <div class="container">
+      <h1 class="logo-font">Capitalize</h1>
+      <p>Capitalize on your Capital One card savings with a budget vacation</p>
+    </div>
+  </div>
+
+  <div class="container page">
+    <div class="row">
+
+      <div>
+        <div class="feed-toggle">
+          <ul class="nav nav-pills outline-active">
+  
+          </ul>
+        </div>
+
+        <app-article-list [limit]="5" [config]="listConfig"></app-article-list>
+      </div>
+    </div>
+  </div>
+</div>
