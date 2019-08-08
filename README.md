@@ -1,3 +1,8 @@
 # Capitalize
-Budget Traveling Website 
-Budget Travel App
+
+Dependencies:
+- Angular
+- Node.js
+- Express
+
+npm install express --save 
