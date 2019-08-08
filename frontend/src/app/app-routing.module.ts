@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { ExpenseTrackerComponent } from './expense-tracker/expense-tracker.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'article',
     loadChildren: './article/article.module#ArticleModule'
+  }, 
+  {
+    path: 'expense-tracker', 
+    component: ExpenseTrackerComponent
+  }, 
+  {
+    path: '**', 
+    component: HomeComponent
   }
 ];
 
