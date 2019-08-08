@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { ExpenseTrackerComponent } from './expense-tracker/expense-tracker.component';
 import { HomeComponent } from './home/home.component';
+import { InputFormComponent } from './input-form/input-form.component';
 
 const routes: Routes = [
   {
@@ -21,12 +22,16 @@ const routes: Routes = [
     loadChildren: './article/article.module#ArticleModule'
   }, 
   {
+    path: 'home', 
+    component: HomeComponent
+  },
+  {
     path: 'expense-tracker', 
     component: ExpenseTrackerComponent
   }, 
   {
     path: '**', 
-    component: HomeComponent
+    component: InputFormComponent
   }
 ];
 

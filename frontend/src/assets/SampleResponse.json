@@ -1,0 +1,36 @@
+{
+    "destination": "Cstat",
+    "destination-photo": "",
+    "total-price": "10000", 
+    "departure-date": "2019-07-20", 
+    "return-date": "2019-07-24", 
+    "food": {
+        "average-cost": "100",
+        "foodURL": "https://www.yelp.com/c/houston/restaurants"
+    }, 
+    "hotel": {
+        "cost": 200, 
+        "address": "6360 Main Street, Houston, TX",
+        "imageURL": "https://picsum.photos/id/237/200/300" 
+    },
+    "flight": {
+        "departure-time": "20:00",
+        "arrival-time": "22:39", 
+        "airline": "Alaska Airlines"
+    },
+    "attractions": {
+        "average-cost": "150",
+        "attraction-names": [
+            "Dog Park", 
+            "Water Slide", 
+            "Amusement Park",
+            "Museum", 
+            "Art Gallery"
+        ], 
+        "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+    }, 
+    "transportation": {
+        "average-cost": 150
+    }
+    
+}

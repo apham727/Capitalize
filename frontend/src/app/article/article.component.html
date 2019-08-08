@@ -1,10 +1,11 @@
 <div class="article-page">
 
-  <div class="banner">
+  <div class="banner" style="background-color: white">
     <div class="container">
-      <h1>{{ article.title }}</h1>
+      <h1 style="color: black">{{ article.title }}</h1>
 
-      
+      <angular-image-slider [images]="imagesUrl"></angular-image-slider>
+
     </div>
   </div>
 
@@ -12,16 +13,6 @@
 
     <div class="row article-content">
       <div class="col-md-12">
-
-        <div [innerHTML]="article.body | markdown"></div>
-
-        <ul class="tag-list">
-          <li *ngFor="let tag of article.tagList"
-            class="tag-default tag-pill tag-outline">
-            {{ tag }}
-          </li>
-        </ul>
-
       </div>
     </div>
 

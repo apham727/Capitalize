@@ -1,0 +1,226 @@
+{
+    "beach": 
+    [
+    {
+      "longitude": "21.2823",
+      "latitude": "157.8310",
+      "name": "Waikiki Beach",
+      "city": "Honolulu",
+      "iata": "HNL",
+      "state": "HI"
+    },
+    {
+      "longitude": "27.9721",
+      "latitude": "156.6831",
+      "name": "Ka'anapali Beach",
+      "city": "Maui",
+      "iata": "JHM",
+      "state": "HI"
+    },
+    {
+      "longitude": "25.7826",
+      "latitude": "80.1341",
+      "name": "South Beach",
+      "city": "Miami",
+      "iata": "MIA",
+      "state": "FL"
+    },
+    {
+      "longitude": "33.6891",
+      "latitude": "78.8867",
+      "name": "Myrtle Beach",
+      "city": "Myrtle Beach",
+      "iata": "MYR",
+      "state": "FL"
+    },
+    {
+      "longitude": "34.0522",
+      "latitude": "118.2437",
+      "name": "Venice Beach",
+      "city": "Los Angeles",
+      "iata": "LAX",
+      "state": "CA"
+    },
+    {
+      "longitude": "38.3365",
+      "latitude": "75.0849",
+      "name": "Ocean City Beach",
+      "city": "Ocean City",
+      "iata": "SBY",
+      "state": "MD"
+    },
+    {
+      "longitude": "34.0195",
+      "latitude": "118.4912",
+      "name": "Santa Monica Beach",
+      "city": "Santa Monica",
+      "iata": "SMO",
+      "state": "CA"
+    }],
+    "nature": [
+    {
+      "longitude": "38.7331",
+      "latitude": "109.5925",
+      "name": "Arches National Park",
+      "city": "Moab",
+      "iata": "CNY",
+      "state": "UT"
+    },
+    {
+      "longitude": "19.4194",
+      "latitude": "155.2885",
+      "name": "Hawaii Volcanoes National Park",
+      "city": "Hawaii Volcanoes National Park",
+      "iata": "ITO",
+      "state": "HI"
+    },
+    {
+      "longitude": "26.4855",
+      "latitude": "80.1623",
+      "name": "Green Cay Nature Center and Wetlands",
+      "city": "Boynton Beach",
+      "iata": "PBI",
+      "state": "FL"
+    },
+    {
+      "longitude": "44.4280",
+      "latitude": "110.5885",
+      "name": "Yellowstone National Park",
+      "city": "Canyon Village",
+      "iata": "COD",
+      "state": "WY"
+    },
+    {
+      "longitude": "36.0544",
+      "latitude": "112.1401",
+      "name": "Grand Canyon",
+      "city": "Grand Canyon Village",
+      "iata": "DLN",
+      "state": "AR"
+    },
+    {
+      "longitude": "38.9376",
+      "latitude": "77.0479",
+      "name": "Rock Creek Park",
+      "city": "Washington DC",
+      "iata": "DLN",
+      "state": "DC"
+    },
+    {
+      "longitude": "44.3386",
+      "latitude": "68.2733",
+      "name": "Acadia National Park",
+      "city": "Asticou",
+      "iata": "DLN",
+      "state": "ME"
+    }],
+  
+    "family-friendly": [{
+      "longitude": "33.7796",
+      "latitude": "117.9157",
+      "name": "Great Wolf Lodge",
+      "city": "Garden Grove",
+      "iata": "LAX",
+      "state": "CA"
+    },
+    {
+      "longitude": "35.8096",
+      "latitude": "83.5344",
+      "name": "Dollywood",
+      "city": "Pigeon Forge",
+      "iata": "TYS",
+      "state": "TN"
+    },
+    {
+      "longitude": "40.7829",
+      "latitude": "73.9654",
+      "name": "Central Park",
+      "city": "New York City",
+      "iata": "NYC",
+      "state": "NY"
+    },
+    {
+      "longitude": "19.4194",
+      "latitude": "155.2885",
+      "name": "Legoland",
+      "city": "Carlsbad",
+      "iata": "SAN",
+      "state": "CA"
+    },
+    {
+      "longitude": "28.3597",
+      "latitude": "81.5913",
+      "name": "Disney’s Animal Kingdom",
+      "city": "Orlando",
+      "iata": "ORL",
+      "state": "FL"
+    },
+    {
+      "longitude": "38.8896",
+      "latitude": "77.0230",
+      "name": "National Mall",
+      "city": "Washington DC",
+      "iata": "IAD",
+      "state": "DC"
+    }]
+  },
+  {
+    "historical": [
+    {
+      "longitude": "37.2116",
+      "latitude": "76.7752",
+      "name": "Jamestown Settlement",
+      "city": "Williamsburg",
+      "iata": "RIC",
+      "state": "VA"
+    },
+    {
+      "longitude": "43.8791",
+      "latitude": "103.4591",
+      "name": "Mount Rushmore",
+      "city": "Keystone",
+      "iata": "RAP",
+      "state": "SD"
+    },
+    {
+      "longitude": "29.4260",
+      "latitude": "98.4861",
+      "name": "The Alamo",
+      "city": "San Antonio",
+      "iata": "SAT",
+      "state": "TX"
+    },
+    {
+      "longitude": "39.49",
+      "latitude": "77.96",
+      "name": "Battle of Gettysburg",
+      "city": "Gettysburg",
+      "iata": "HAR",
+      "state": "PA"
+    },
+    {
+      "longitude": "45.341314",
+      "latitude": "122.592327",
+      "name": "Oregon Trail",
+      "city": "Oregon City",
+      "iata": "PDX",
+      "state": "OR"
+    },
+    {
+      "longitude": "45.8521",
+      "latitude": "84.6174",
+      "name": "Fort Mackinac",
+      "city": "Mackinaw City",
+      "iata": "PLN",
+      "state": "MI"
+    },
+    {
+      "longitude": "29.9511",
+      "latitude": "90.0715",
+      "name": "New Orleans",
+      "city": "New Orleans",
+      "iata": "MSY",
+      "state": "LA"
+    }
+    ]
+}

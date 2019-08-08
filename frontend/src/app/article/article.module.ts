@@ -8,10 +8,13 @@ import { MarkdownPipe } from './markdown.pipe';
 import { SharedModule } from '../shared';
 import { ArticleRoutingModule } from './article-routing.module';
 
+
+import { SliderModule } from '../slider/slider.module';
 @NgModule({
   imports: [
     SharedModule,
-    ArticleRoutingModule
+    ArticleRoutingModule,
+    SliderModule
   ],
   declarations: [
     ArticleComponent,
