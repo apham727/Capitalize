@@ -230,8 +230,6 @@ var foodObject;
               });
           }  
         });
-        // AGGREGATION LOGIC 
-        console.log(flightObject)
     }  
   });
 
