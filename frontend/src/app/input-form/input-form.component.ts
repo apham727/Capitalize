@@ -28,7 +28,7 @@ export class InputFormComponent implements OnInit {
   public budget;
 
   public executeSearch(){
-    this.router.navigate(['/home']);
+    this.router.navigate(['/home'], { queryParams: { category: this.selectedCategory, travelers: this.numTravelers, maxPrice: this.budget } });
     console.log(this.location);
 
     // this.location.go("append");
