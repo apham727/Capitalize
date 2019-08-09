@@ -57,21 +57,6 @@ export class ArticleComponent implements OnInit {
     //   'https://s-media-cache-ak0.pinimg.com/originals/73/f3/08/73f30861d214eea1d6c5d99fe72b3053.jpg',
     //   'https://bmj2k.files.wordpress.com/2011/04/heroes.jpg'
     // ];
-    var data = this.transferService.getData();       
-    console.log("DATA IN ARTICLE");
-    console.log(data);
-
-    console.log("here")
-    var dest = this.route.snapshot.paramMap.get("destination")
-    console.log("DESITNATION IS " + dest)
-    for (let pack in Object.keys(data)) {
-      if (data.destination == dest) {
-          this.package = pack
-      }
-    }
-
-    console.log("NEW PACK")
-    console.log(this.package)
 
 
     // this.http.get("assets/SampleResponse.json")

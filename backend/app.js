@@ -8,13 +8,22 @@ var budget
 var location
 var aggregate 
 
+var cors = require('cors')
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "localhost"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 app.get('/', function (req, res) {
+  
   category = req.params.category;
   numPeople = req.params.numPeople;
   budget = req.params.budget;
   location = req.params.location;
   console.log(location);
+
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
   res.send(aggregate)
 });
 
@@ -26,7 +35,7 @@ app.use('/hotel', hotel_route);
 // var sql = require("./flights");
 // sql.a();
 
-app.listen(3000, function () {
+app.listen(80, function () {
   console.log('Example app listening on port 3000!');
  });
 
