@@ -35,13 +35,8 @@ export class ArticlesService {
       .pipe(map(data => data.article));
   }
 
-
-
-
   // DONT NEED ANY OF THIS BELOW
-
-
-
+  
   destroy(slug) {
     return this.apiService.delete('/articles/' + slug);
   }

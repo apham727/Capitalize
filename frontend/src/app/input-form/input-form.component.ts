@@ -19,7 +19,6 @@ export class InputFormComponent implements OnInit {
   }
   
   ngOnInit() {
-
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(currentPosition => {
         console.log('currentPosition', currentPosition);

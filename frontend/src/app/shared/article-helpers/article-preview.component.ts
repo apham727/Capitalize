@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { SliderModule } from 'angular-image-slider';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ActivatedRoute, Router } from '@angular/router';
+
 
 import { Article } from '../../core';
 
@@ -12,6 +14,9 @@ import { Article } from '../../core';
 
 
 export class ArticlePreviewComponent {
+  constructor(private router: Router) {
+
+  }
   public imagesUrl;
   @Input() article: Article;
   images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
@@ -24,4 +29,9 @@ export class ArticlePreviewComponent {
       this.article['favoritesCount']--;
     }
   }
+
+  goToPackage(id) {
+    this.router.navigate(['/package'], { queryParams: { id: id } });
+  }
+
 }

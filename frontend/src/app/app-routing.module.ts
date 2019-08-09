@@ -3,6 +3,8 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { ExpenseTrackerComponent } from './expense-tracker/expense-tracker.component';
 import { HomeComponent } from './home/home.component';
 import { InputFormComponent } from './input-form/input-form.component';
+import { ArticleComponent } from './article/article.component';
+import { PackageComponent } from './package/package.component';
 
 const routes: Routes = [
   {
@@ -18,8 +20,8 @@ const routes: Routes = [
     loadChildren: './editor/editor.module#EditorModule'
   },
   {
-    path: 'article',
-    loadChildren: './article/article.module#ArticleModule'
+    path: 'package',
+    component: PackageComponent
   }, 
   {
     path: 'home', 
