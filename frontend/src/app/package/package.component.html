@@ -10,7 +10,12 @@
 
   <div class="content"> 
     <h2>Flight</h2>
-    <h6>Price: </h6>
+    <h3>Price: ${{ package.flight.cost }} </h3>
+    <h4>Flight Number: {{ package.flight.departingFlight.departureFlightId }}</h4>
+    <h4>Depart From: {{ package.flight.departingFlight.departureLoc }}</h4>
+    <h4>Arrive At: {{ package.flight.departingFlight.arrivalLoc }}</h4> 
+
+
   </div>
 
 
