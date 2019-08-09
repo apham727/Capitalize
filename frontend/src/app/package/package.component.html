@@ -1,7 +1,12 @@
 <div class="article-page">
 
-  <div class="banner" style="background-color: white; margin: 0px; padding: 0px">
-    <h1>{{ package.destination }}</h1>
+  <div class="banner" style="background-color: white">
+    <div class="container">
+      <h1>{{ package.destination }}</h1>
+
+      <angular-image-slider [images]="carouselImages"></angular-image-slider>
+    </div>
+    
   </div>
 
   <div class="container">

@@ -1,0 +1,179 @@
+{
+    "flights": [
+        {
+            "cost": "598.1871.18",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "HNL",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "HNL",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
+        },
+        {
+            "cost": "280.2158.21",
+            "departingFlight": {
+                "numConnections": 1,
+                "departureLoc": "EWR",
+                "departureFlightId": "DL 2398",
+                "departureDate": "9/1/2019",
+                "departureTime": "6:25 PM",
+                "arrivalLoc": "MYR",
+                "arrivalFlightId": "DL 2801",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "10:35 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "MYR",
+                "departureFlightId": "DL 1247",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:54 PM",
+                "arrivalLoc": "EWR",
+                "arrivalFlightId": "DL 2415",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "12:46 AM"
+            }
+        },
+        {
+            "cost": "4121.148.14",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "O2 4582",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:15 AM",
+                "arrivalLoc": "OCE",
+                "arrivalFlightId": "O2 4582",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "11:41 AM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "SBY",
+                "departureFlightId": "O2 4122",
+                "departureDate": "9/8/2019",
+                "departureTime": "8:54 AM",
+                "arrivalLoc": "SWF",
+                "arrivalFlightId": "O2 4295",
+                "arrivalDate": "9/8/2019",
+                "arrivalTime": "11:58 AM"
+            }
+        },
+        {
+            "cost": "187.1337.13",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "LGA",
+                "departureFlightId": "DL 723",
+                "departureDate": "9/1/2019",
+                "departureTime": "3:45 PM",
+                "arrivalLoc": "MIA",
+                "arrivalFlightId": "DL 723",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "6:59 PM"
+            },
+            "returnFlight": {
+                "numConnections": 0,
+                "departureLoc": "MIA",
+                "departureFlightId": "DL 2151",
+                "departureDate": "9/8/2019",
+                "departureTime": "7:15 AM",
+                "arrivalLoc": "LGA",
+                "arrivalFlightId": "DL 2151",
+                "arrivalDate": "9/8/2019",
+                "arrivalTime": "10:13 AM"
+            }
+        },
+        {
+            "cost": "447.9569.95",
+            "departingFlight": {
+                "numConnections": 1,
+                "departureLoc": "EWR",
+                "departureFlightId": "SY 234",
+                "departureDate": "9/1/2019",
+                "departureTime": "11:40 AM",
+                "arrivalLoc": "LAX",
+                "arrivalFlightId": "SY 425",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:00 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "LAX",
+                "departureFlightId": "SY 430",
+                "departureDate": "9/8/2019",
+                "departureTime": "2:40 AM",
+                "arrivalLoc": "EWR",
+                "arrivalFlightId": "SY 233",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "10:50 AM"
+            }
+        },
+        {
+            "cost": "819.7784.77",
+            "departingFlight": {
+                "numConnections": 1,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "JHM",
+                "arrivalFlightId": "HA 678",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "11:16 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "JHM",
+                "departureFlightId": "HA 639",
+                "departureDate": "9/8/2019",
+                "departureTime": "5:17 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "HA 50",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "6:55 AM"
+            }
+        },
+        {
+            "cost": "5108.20384.20",
+            "departingFlight": {
+                "numConnections": 1,
+                "departureLoc": "JFK",
+                "departureFlightId": "B6 1611",
+                "departureDate": "9/1/2019",
+                "departureTime": "6:35 AM",
+                "arrivalLoc": "SMO",
+                "arrivalFlightId": "O2 2057",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "10:22 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "SMO",
+                "departureFlightId": "O2 8867",
+                "departureDate": "9/8/2019",
+                "departureTime": "11:30 AM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "B6 2248",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "12:09 AM"
+            }
+        }
+    ]
+}

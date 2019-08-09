@@ -36,15 +36,15 @@ app.get('/hotel', function (req, res) {
         'Cache-Control': 'no-cache',
         Accept: '*/*',
         'User-Agent': 'PostmanRuntime/7.15.2',
-        Authorization: 'Bearer b2NefnO4KkGE27PGZGZCsNxzdnM8'
+        Authorization: 'Bearer mssEZvzxx9bFQQ3U6D34cmtg3g2b'
       }
     };
 
     request(options, function (error, response, body) {
       if (error) throw new Error(error);
 
-      // console.log(body);
-      return res.send(JSON.stringify(response));
+      // console.log(body.length);
+      return res.send(JSON.body);
     });
 
 
