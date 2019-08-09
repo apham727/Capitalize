@@ -6,8 +6,19 @@
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
-            "average-cost": "100",
-            "foodURL": "https://www.yelp.com/c/houston/restaurants"
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Colapasta",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Manchego",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+                    "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+            ]
         }, 
         "hotel": {
             "cost": 200, 
@@ -15,9 +26,29 @@
             "imageURL": "https://picsum.photos/id/237/200/300" 
         },
         "flight": {
-            "departure-time": "20:00",
-            "arrival-time": "22:39", 
-            "airline": "Alaska Airlines"
+            "cost": "598.1871.18",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "HNL",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "HNL",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
         },
         "attractions": {
             "average-cost": "150",
