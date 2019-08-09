@@ -2,7 +2,7 @@
     {
         "destination": "Houston",
         "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
-        "price": 1577, 
+        "price": 1577.97, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
@@ -21,30 +21,30 @@
             ]
         }, 
         "hotel": {   
-            "name": "CASTLE PACIFIC MARINA INN",
+            "name": "MARRIOT HOTEL",
             "price": "165.20",
-            "address": "2628 WAIWAI LOOP",
-            "city": "HONOLULU",
-            "state": "HI",
+            "address": "234 Main Street",
+            "city": "HOUSTON",
+            "state": "TX",
             "postalCode": "96819",
             "phone": "1-808-836-1131"
         },
         "flight": {
-            "cost": "598.1871.18",
+            "cost": "1214.23",
             "departingFlight": {
                 "numConnections": 0,
                 "departureLoc": "JFK",
                 "departureFlightId": "HA 51",
                 "departureDate": "9/1/2019",
                 "departureTime": "10:00 AM",
-                "arrivalLoc": "HNL",
+                "arrivalLoc": "IAH",
                 "arrivalFlightId": "HA 51",
                 "arrivalDate": "9/1/2019",
                 "arrivalTime": "8:50 PM"
             },
             "returnFlight": {
                 "numConnections": 1,
-                "departureLoc": "HNL",
+                "departureLoc": "IAH",
                 "departureFlightId": "AS 866",
                 "departureDate": "9/8/2019",
                 "departureTime": "6:45 PM",
@@ -73,7 +73,7 @@
     {
         "destination": "New York",
         "destinationphoto": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-        "price": 3423, 
+        "price": 3423.27, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
@@ -92,30 +92,30 @@
             ]
         }, 
         "hotel": {   
-            "name": "CASTLE PACIFIC MARINA INN",
+            "name": "HILTON HOTEL",
             "price": "165.20",
-            "address": "2628 WAIWAI LOOP",
-            "city": "HONOLULU",
-            "state": "HI",
+            "address": "26th Street",
+            "city": "NYC",
+            "state": "NY",
             "postalCode": "96819",
             "phone": "1-808-836-1131"
         },
         "flight": {
-            "cost": "598.1871.18",
+            "cost": 756.20,
             "departingFlight": {
                 "numConnections": 0,
                 "departureLoc": "JFK",
                 "departureFlightId": "HA 51",
                 "departureDate": "9/1/2019",
                 "departureTime": "10:00 AM",
-                "arrivalLoc": "HNL",
+                "arrivalLoc": "IAD",
                 "arrivalFlightId": "HA 51",
                 "arrivalDate": "9/1/2019",
                 "arrivalTime": "8:50 PM"
             },
             "returnFlight": {
                 "numConnections": 1,
-                "departureLoc": "HNL",
+                "departureLoc": "IAD",
                 "departureFlightId": "AS 866",
                 "departureDate": "9/8/2019",
                 "departureTime": "6:45 PM",
@@ -144,7 +144,7 @@
     {
         "destination": "Chicago",
         "destinationphoto": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1413&q=80",
-        "price": 2143, 
+        "price": 2143.23, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
@@ -163,30 +163,30 @@
             ]
         }, 
         "hotel": {   
-            "name": "CASTLE PACIFIC MARINA INN",
+            "name": "RADISON INN",
             "price": "165.20",
-            "address": "2628 WAIWAI LOOP",
-            "city": "HONOLULU",
-            "state": "HI",
+            "address": "2563 Ida B Wells Dr. ",
+            "city": "Chicago",
+            "state": "IL",
             "postalCode": "96819",
             "phone": "1-808-836-1131"
         },
         "flight": {
-            "cost": "598.1871.18",
+            "cost": "423.35",
             "departingFlight": {
                 "numConnections": 0,
                 "departureLoc": "JFK",
                 "departureFlightId": "HA 51",
                 "departureDate": "9/1/2019",
                 "departureTime": "10:00 AM",
-                "arrivalLoc": "HNL",
+                "arrivalLoc": "ORD",
                 "arrivalFlightId": "HA 51",
                 "arrivalDate": "9/1/2019",
                 "arrivalTime": "8:50 PM"
             },
             "returnFlight": {
                 "numConnections": 1,
-                "departureLoc": "HNL",
+                "departureLoc": "ORD",
                 "departureFlightId": "AS 866",
                 "departureDate": "9/8/2019",
                 "departureTime": "6:45 PM",

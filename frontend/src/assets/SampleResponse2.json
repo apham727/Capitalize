@@ -1,0 +1,387 @@
+[  
+   {  
+      "flights":{  
+         "cost":331,
+         "departingFlight":{  
+            "numConnections":1,
+            "departureLoc":"LGA",
+            "departureFlightId":"DL 2561",
+            "departureDate":"9/1/2019",
+            "departureTime":"6:00 AM",
+            "arrivalLoc":"MYR",
+            "arrivalFlightId":"DL 6293",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"10:32 AM"
+         },
+         "returnFlight":{  
+            "numConnections":1,
+            "departureLoc":"MYR",
+            "departureFlightId":"DL 1247",
+            "departureDate":"9/8/2019",
+            "departureTime":"6:54 PM",
+            "arrivalLoc":"JFK",
+            "arrivalFlightId":"DL 1888",
+            "arrivalDate":"9/8/2019",
+            "arrivalTime":"11:46 PM"
+         }
+      },
+      "hotels":{  
+         "name":"CASTLE PACIFIC MARINA INN",
+         "price":"165.20",
+         "address":"2628 WAIWAI LOOP",
+         "city":"HONOLULU",
+         "state":"HI",
+         "postalCode":"96819",
+         "phone":"1-808-8361131"
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Duke's Waikiki",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/gSKZELvdu7rxfQNVzC4l_g/o.jpg",
+               "url":"https://www.yelp.com/biz/dukes-waikiki-honolulu-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Marukame Udon",
+               "image_url":"https://s3-media4.fl.yelpcdn.com/bphoto/iTBFTGVIB9nV9tg1LeK9AQ/o.jpg",
+               "url":"https://www.yelp.com/biz/marukame-udon-honolulu?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"HONOLULU",
+      "totalCost":274.72
+   },
+   {  
+      "flights":{  
+         "cost":4094,
+         "departingFlight":{  
+            "numConnections":0,
+            "departureLoc":"EWR",
+            "departureFlightId":"O2 8425",
+            "departureDate":"9/1/2019",
+            "departureTime":"8:30 AM",
+            "arrivalLoc":"SBY",
+            "arrivalFlightId":"O2 8425",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"9:47 AM"
+         },
+         "returnFlight":{  
+            "numConnections":1,
+            "departureLoc":"SBY",
+            "departureFlightId":"O2 4322",
+            "departureDate":"9/8/2019",
+            "departureTime":"3:39 PM",
+            "arrivalLoc":"SWF",
+            "arrivalFlightId":"O2 4495",
+            "arrivalDate":"9/8/2019",
+            "arrivalTime":"6:43 PM"
+         }
+      },
+      "hotels":{  
+         "name":"",
+         "price":"",
+         "address":"",
+         "city":"",
+         "state":"",
+         "postalCode":"",
+         "phone":""
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Acevedo's Hawaicano Cafe",
+               "image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/QnkBYFJhF_bluT_LXSmecg/o.jpg",
+               "url":"https://www.yelp.com/biz/acevedos-hawaicano-cafe-kahului?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Tanpopo",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/KBsDe_e7pRaNUqHymvdxcA/o.jpg",
+               "url":"https://www.yelp.com/biz/tanpopo-kihei?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"MAUI",
+      "totalCost":3398.02
+   },
+   {  
+      "flights":{  
+         "cost":224,
+         "departingFlight":{  
+            "numConnections":0,
+            "departureLoc":"JFK",
+            "departureFlightId":"DL 2175",
+            "departureDate":"9/1/2019",
+            "departureTime":"11:30 AM",
+            "arrivalLoc":"MIA",
+            "arrivalFlightId":"DL 2175",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"2:37 PM"
+         },
+         "returnFlight":{  
+            "numConnections":0,
+            "departureLoc":"MIA",
+            "departureFlightId":"DL 1415",
+            "departureDate":"9/8/2019",
+            "departureTime":"11:58 AM",
+            "arrivalLoc":"LGA",
+            "arrivalFlightId":"DL 1415",
+            "arrivalDate":"9/8/2019",
+            "arrivalTime":"2:52 PM"
+         }
+      },
+      "hotels":{  
+         "name":"HAMPTON INN COCONUT GROVE",
+         "price":"134.47",
+         "address":"2800 SW 28 TERRACE",
+         "city":"MIAMI",
+         "state":"FL",
+         "postalCode":"33133",
+         "phone":"1-305-448-2800"
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Red Carpet Italian",
+               "image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/B0bSflWbCXxCdliPobHqtQ/o.jpg",
+               "url":"https://www.yelp.com/biz/red-carpet-italian-miami?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Crazy About You",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/YYPRTEaq2U9EoWC9IsirFA/o.jpg",
+               "url":"https://www.yelp.com/biz/crazy-about-you-miami-3?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"MIAMI",
+      "totalCost":185.92
+   },
+   {  
+      "flights":{  
+         "cost":659,
+         "departingFlight":{  
+            "numConnections":1,
+            "departureLoc":"EWR",
+            "departureFlightId":"AS 783",
+            "departureDate":"9/1/2019",
+            "departureTime":"6:25 PM",
+            "arrivalLoc":"HNL",
+            "arrivalFlightId":"AS 837",
+            "arrivalDate":"9/2/2019",
+            "arrivalTime":"4:10 PM"
+         },
+         "returnFlight":{  
+            "numConnections":1,
+            "departureLoc":"HNL",
+            "departureFlightId":"AS 710",
+            "departureDate":"9/8/2019",
+            "departureTime":"9:55 PM",
+            "arrivalLoc":"JFK",
+            "arrivalFlightId":"AS 1024",
+            "arrivalDate":"9/9/2019",
+            "arrivalTime":"10:00 PM"
+         }
+      },
+      "hotels":{  
+         "name":"SHERATON BROADWAY PLANTATION",
+         "price":"344.65",
+         "address":"3301 ROBERT M GRISSOM PARKWAY",
+         "city":"MYRTLE BEACH",
+         "state":"SC",
+         "postalCode":"29577",
+         "phone":"+1 843 916-8855"
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Mediterranean Bistro",
+               "image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/6B6zaYNFcDJe5E_rt23UOQ/o.jpg",
+               "url":"https://www.yelp.com/biz/mediterranean-bistro-myrtle-beach?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Simply Southern Smokehouse",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/zMhVBGNqvIUC37KgpnsNDQ/o.jpg",
+               "url":"https://www.yelp.com/biz/simply-southern-smokehouse-myrtle-beach?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"MYRTLE BEACH",
+      "totalCost":546.97
+   },
+   {  
+      "flights":{  
+         "cost":1069,
+         "departingFlight":{  
+            "numConnections":2,
+            "departureLoc":"JFK",
+            "departureFlightId":"DL 183",
+            "departureDate":"9/1/2019",
+            "departureTime":"7:05 AM",
+            "arrivalLoc":"JHM",
+            "arrivalFlightId":"HA 678",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"11:16 PM"
+         },
+         "returnFlight":{  
+            "numConnections":2,
+            "departureLoc":"JHM",
+            "departureFlightId":"HA 619",
+            "departureDate":"9/8/2019",
+            "departureTime":"3:06 PM",
+            "arrivalLoc":"JFK",
+            "arrivalFlightId":"DL 1908",
+            "arrivalDate":"9/9/2019",
+            "arrivalTime":"6:48 AM"
+         }
+      },
+      "hotels":{  
+         "name":"",
+         "price":"",
+         "address":"",
+         "city":"",
+         "state":"",
+         "postalCode":"",
+         "phone":""
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Angry Birdz",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/jC89o6Ar88SHb3uPUZVxoQ/o.jpg",
+               "url":"https://www.yelp.com/biz/angry-birdz-los-angeles-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Rice Guys",
+               "image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/qzNQeeReByYTIvS7Hl36JQ/o.jpg",
+               "url":"https://www.yelp.com/biz/rice-guys-los-angeles?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"LOS ANGELES",
+      "totalCost":887.27
+   },
+   {  
+      "flights":{  
+         "cost":253,
+         "departingFlight":{  
+            "numConnections":0,
+            "departureLoc":"JFK",
+            "departureFlightId":"B6 123",
+            "departureDate":"9/1/2019",
+            "departureTime":"7:04 AM",
+            "arrivalLoc":"LAX",
+            "arrivalFlightId":"B6 123",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"1:07 PM"
+         },
+         "returnFlight":{  
+            "numConnections":0,
+            "departureLoc":"LAX",
+            "departureFlightId":"B6 1124",
+            "departureDate":"9/8/2019",
+            "departureTime":"6:41 PM",
+            "arrivalLoc":"JFK",
+            "arrivalFlightId":"B6 1124",
+            "arrivalDate":"9/9/2019",
+            "arrivalTime":"12:06 AM"
+         }
+      },
+      "hotels":{  
+         "name":"HAMPTON INN SALISBURY MD",
+         "price":"233.02",
+         "address":"121 E NAYLOR MILL RD",
+         "city":"SALISBURY",
+         "state":"MD",
+         "postalCode":"21804",
+         "phone":"1-410-334-3080"
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Hooked",
+               "image_url":"https://s3-media3.fl.yelpcdn.com/bphoto/2Tvf0LqBX5ihHYxy2GhB0w/o.jpg",
+               "url":"https://www.yelp.com/biz/hooked-ocean-city?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"On The Bay Seafood",
+               "image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/akl7egL0t8OHl7LN8Z3K-Q/o.jpg",
+               "url":"https://www.yelp.com/biz/on-the-bay-seafood-ocean-city?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"SALISBURY",
+      "totalCost":209.98
+   },
+   {  
+      "flights":{  
+         "cost":5403,
+         "departingFlight":{  
+            "numConnections":1,
+            "departureLoc":"EWR",
+            "departureFlightId":"UA 1753",
+            "departureDate":"9/1/2019",
+            "departureTime":"6:30 AM",
+            "arrivalLoc":"SMO",
+            "arrivalFlightId":"O2 9757",
+            "arrivalDate":"9/1/2019",
+            "arrivalTime":"10:51 PM"
+         },
+         "returnFlight":{  
+            "numConnections":1,
+            "departureLoc":"SMO",
+            "departureFlightId":"O2 9757",
+            "departureDate":"9/8/2019",
+            "departureTime":"7:00 PM",
+            "arrivalLoc":"EWR",
+            "arrivalFlightId":"UA 2327",
+            "arrivalDate":"9/9/2019",
+            "arrivalTime":"5:00 AM"
+         }
+      },
+      "hotels":{  
+         "name":"MARINA DEL REY MARRIOTT",
+         "price":"308.13",
+         "address":"4100 ADMIRALTY WAY",
+         "city":"MARINA DEL REY",
+         "state":"CA",
+         "postalCode":"90292",
+         "phone":"1-310-3013000"
+      },
+      "food":{  
+         "avgPrice":20,
+         "restaurants":[  
+            {  
+               "name":"Colapasta",
+               "image_url":"https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+               "url":"https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            },
+            {  
+               "name":"Manchego",
+               "image_url":"https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+               "url":"https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+            }
+         ]
+      },
+      "departureDate":"2019-11-27",
+      "returnDate":"2019-12-01",
+      "destination":"MARINA",
+      "totalCost":4484.49
+   }
+]

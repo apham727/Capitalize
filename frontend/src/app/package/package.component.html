@@ -9,11 +9,11 @@
     
   </div>
 
-  <h1>Your Itinerary</h1>
+  <h1>Cost Breakdown</h1>
   <div class="colContainer">
       <div style="margin-left: 25vw;"class="content"> 
           <h2><strong>Air Travel</strong></h2>
-          <h3>Price: ${{ package.flight.cost }} </h3>
+          <h3>Price: ${{ package["flight"]["cost"] }} </h3>
           <br>
           
           <h2>Departing Flight</h2>
@@ -36,9 +36,14 @@
           <h4>Price: ${{ package.hotel.price }} </h4>
           <h4>Address: <br> {{ package.hotel.address }} <br/> {{ package.hotel.city }}, {{package.hotel.state}} {{package.hotel.postalCode}}</h4>
           <h4>Phone: {{package.hotel.phone}}</h4>
-        </div>
+          <br>
 
-      
+          <h2><strong>Food</strong></h2>
+          <h3>Average Price: ${{package.food.avgPrice }}</h3>
+          <h3>Venue: {{package.food.restaurants[0].name }} </h3>
+          <img src="{{package.food.restaurants[0].image_url}}" style="height: 7vw">
+  
+        </div>      
   </div>
 
 
@@ -46,3 +51,15 @@
 
 
 </div>
+
+<!-- 
+<div style="display: block; margin: 0px 20%;">
+  <canvas baseChart
+          [data]="expensesData"
+          [labels]="expensesLabels"
+          [chartType]="expensesType"
+          [options]="barChartOptions">
+        
+        </canvas>
+</div>
+ -->

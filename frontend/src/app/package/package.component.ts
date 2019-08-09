@@ -15,6 +15,21 @@ export class PackageComponent implements OnInit {
   carouselImages = []
   package; // this will store the json response
 
+
+  public expensesLabels = ['Hotel', 'Transportation', 'Flight', 'Food'];
+  public expensesMappings = new Map();
+
+
+  public hotels = 150;
+  public transportation = 75;
+  public flight = 200;
+  public food = 50;
+
+
+
+  public expensesData = [this.hotels, this.transportation, this.flight, this.food];
+  public expensesType = 'pie';
+
     constructor(
     private route: ActivatedRoute,
       private http: HttpClient, 
@@ -51,6 +66,9 @@ export class PackageComponent implements OnInit {
           break;
       }
     }
+    this.flight = this.package["flight"]["cost"] 
+    this.hotels = this.package.hotel.price 
+    this.food = this.package.food.avgPrice
 
     this.carouselImages.push(this.package["destinationphoto"])
     this.carouselImages.push(this.package["destinationphoto"])

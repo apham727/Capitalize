@@ -76,7 +76,7 @@ export class ArticleListComponent {
     this.lng =  urlParams.get('lng');
 
     // LOGIC TO GENERATE ARTICLE LIST
-    this.http.get("localhost:80?category=beach&budget=1234&numPeople=234&location=Richmond,VA")
+    this.http.get("assets/SampleResponse.json")
     .subscribe(
       result => {
         this.packages = result
