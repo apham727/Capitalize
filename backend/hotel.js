@@ -32,6 +32,7 @@ router.get('/', async function (req, res) {
 
     res.send(json_string);
     fs.writeFileSync('hotel.json', json_string);
+    console.log("test");
 
 })
 

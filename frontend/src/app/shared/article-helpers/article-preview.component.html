@@ -1,16 +1,30 @@
 <div style="width: 65vw" class="article-preview">
- 
-  <a [routerLink]="['/package']" [queryParams]={name:article.destination} class="preview-link">
-    <p style="font-size: 10vh; margin-top: 3vh; color: black">{{ article.destination }}</p>
-    <ul class="tag-list">
-    </ul>
-    <br/> 
-    
-      <img style="margin-left: 50%; height: 40vh" src={{article.destinationphoto}}>
-    
-    <p style="font-size: 5vh; color: black">${{ article.price }}</p>
-  </a>
+    <a [routerLink]="['/package']" [queryParams]={destination:article.destination} class="preview-link">
+      <div class = "colContainer"> 
+        <div class="content">
+              <p style="font-size: 10vh; margin-top: 3vh; color: black">{{ article.destination }}</p>
+              <ul class="tag-list">
+              </ul>
+              <br/>         
+              <br/>
+              <p style="font-size: 5vh; color: green">${{ article.price }}</p>
+            </div>
+            
+            <div class="content">
+              <img style=" height: 40vh" src={{article.destinationphoto}}>
+            </div>
+        </div>
+    </a>
+      
+
   
 
 
 </div>
+
+
+
+
+
+
+

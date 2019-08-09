@@ -11,7 +11,13 @@ h1 {
 
 .content {
     margin: 30px;
+    display: flex;
+    flex-direction: column;
 
+}
+.colContainer {
+    display: flex;
+    flex-direction: row;
 }
 
 

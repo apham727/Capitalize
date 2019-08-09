@@ -1,6 +1,31 @@
-<div style="display: block; margin-top: 5vh;">
+<div style="text-align: center; margin-top: 2vh;">
+  <form>
+    <div class="form-group">
+      <label for="category">Category</label>
+      <br/> 
+      <select name="category" [(ngModel)]="amountCategory">
+        <option value=0>Hotel</option>
+        <option value=1>Transportation</option>
+        <option value=2>Flight</option>
+        <option value=3>Food</option>
+        <option value=4>Attractions</option>
+        <option value=5>Other</option>
+      </select>
+      <br/> 
+      <br/>
+      <label for="budget">Amount</label>
+        <input [(ngModel)]="amountToAdd" name="amount" style="width: 15%; margin: auto" type="number" class="form-control" min="1" max="" step="1" id="budget" required>
+   </div>
+    <button (click)="updateChart()" type="submit">Log Transaction</button>
+  </form>
+</div>
+<br/> 
+<div style="display: block; margin: 0px 20%;">
   <canvas baseChart
           [data]="expensesData"
           [labels]="expensesLabels"
-          [chartType]="expensesType"></canvas>
+          [chartType]="expensesType"
+          [options]="barChartOptions">
+        
+        </canvas>
 </div>
