@@ -63,6 +63,7 @@ export class ArticleComponent implements OnInit {
 
     console.log("here")
     var dest = this.route.snapshot.paramMap.get("destination")
+    console.log("DESITNATION IS " + dest)
     for (let pack in Object.keys(data)) {
       if (data.destination == dest) {
           this.package = pack

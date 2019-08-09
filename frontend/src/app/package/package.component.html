@@ -10,34 +10,39 @@
   </div>
 
   <h1>Your Itinerary</h1>
+  <div class="colContainer">
+      <div style="margin-left: 25vw;"class="content"> 
+          <h2><strong>Air Travel</strong></h2>
+          <h3>Price: ${{ package.flight.cost }} </h3>
+          <br>
+          
+          <h2>Departing Flight</h2>
+          <h4>Flight Number: {{ package.flight.departingFlight.departureFlightId }}</h4>
+          <h4>Depart From: {{ package.flight.departingFlight.departureLoc }}</h4>
+          <h4>Arrive At: {{ package.flight.departingFlight.arrivalLoc }}</h4> 
+          <br>
+      
+          <h2>Returning Flight</h2>
+          <h4>Flight Number: {{ package.flight.returnFlight.departureFlightId }}</h4>
+          <h4>Depart From: {{ package.flight.returnFlight.departureLoc }}</h4>
+          <h4>Arrive At: {{ package.flight.returnFlight.arrivalLoc }}</h4> 
+      </div>
+      
 
-  <div style="margin-left: 25vw;"class="content"> 
-    <h2><strong>Air Travel</strong></h2>
-    <h3>Price: ${{ package.flight.cost }} </h3>
-    <br>
-    
-    <h2>Departing Flight</h2>
-    <h4>Flight Number: {{ package.flight.departingFlight.departureFlightId }}</h4>
-    <h4>Depart From: {{ package.flight.departingFlight.departureLoc }}</h4>
-    <h4>Arrive At: {{ package.flight.departingFlight.arrivalLoc }}</h4> 
+
+      <div style="margin-left: 25vw;"class="content"> 
+          <h2><strong>Hotel</strong></h2>
+          <h3>{{ package.hotel.name }}</h3>
+          <h4>Price: ${{ package.hotel.price }} </h4>
+          <h4>Address: <br> {{ package.hotel.address }} <br/> {{ package.hotel.city }}, {{package.hotel.state}} {{package.hotel.postalCode}}</h4>
+          <h4>Phone: {{package.hotel.phone}}</h4>
+        </div>
+
+      
   </div>
 
-  <br/> 
 
-  <div style="margin-left: 25vw;"class="content"> 
-    <h2>Hotel</h2>
-    <h3>{{ package.hotel.name }}</h3>
-    <h4>Price: ${{ package.hotel.price }}</h4>
-    <h4>Address: <br> {{ package.hotel.address }} <br/> {{ package.hotel.city }}, {{package.hotel.state}} {{package.hotel.postalCode}}</h4>
-    <h4>Phone: {{ package.hotel.phone }}</h4>
-  
-  </div>
-<br/>
-  <div style="margin-left: 25vw;"class="content"> 
-    <h2></h2>
-    <ul> 
-    </ul>
-  </div>
+
 
 
 </div>
