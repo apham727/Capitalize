@@ -75,9 +75,6 @@ export class ArticleListComponent {
     this.lat = urlParams.get('lat');
     this.lng =  urlParams.get('lng');
 
-    
-  
-
     // LOGIC TO GENERATE ARTICLE LIST
     this.http.get("assets/SampleResponse.json")
     .subscribe(
@@ -88,9 +85,6 @@ export class ArticleListComponent {
         console.log(this.packages)
       }
     );
-
-
-    
 
     console.log("GET REQUEST");
     console.log("localhost:3000?" + "category=" + this.selectedCat + "&budget=" + this.price + "&numPeople=" + this.travelers + "&location=Richmond,VA")
