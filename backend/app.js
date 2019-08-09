@@ -6,6 +6,7 @@ var category
 var numPeople 
 var budget 
 var location
+var aggregate 
 
 
 app.get('/', function (req, res) {
@@ -14,6 +15,7 @@ app.get('/', function (req, res) {
   budget = req.params.budget;
   location = req.params.location;
   console.log(location);
+  res.send(aggregate)
 });
 
 
@@ -199,6 +201,7 @@ var foodObject;
                           };
                           console.log("Combined JSON has been modified");
                       });
+                      aggregate = JSON.stringify(returnObj)
                     
                    
                     
