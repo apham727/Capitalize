@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
+import { FooterComponent } from '../shared';
 
 @Component({
   selector: 'app-input-form',
@@ -8,19 +9,25 @@ import { Router } from '@angular/router';
   styleUrls: ['./input-form.component.css']
 })
 export class InputFormComponent implements OnInit {
+  
+  private lng: number;
+  private lat: number;
 
-  constructor(private location: Location, private router: Router) { }
-
+  constructor(private location: Location, private router: Router) { 
+     this.lng = 20;
+     this.lat = 20;
+  }
+  
   ngOnInit() {
+
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(displayLocationInfo);
+      navigator.geolocation.getCurrentPosition(currentPosition => {
+        console.log('currentPosition', currentPosition);
+        this.lng = currentPosition.coords.longitude;
+        this.lat = currentPosition.coords.latitude;
+      })
     }
-    
-    function displayLocationInfo(position) {
-      const lng = position.coords.longitude;
-      const lat = position.coords.latitude;
-      console.log(`longitude: ${ lng } | latitude: ${ lat }`);
-    }
+    console.log(`longitude: ${ this.lng } | latitude: ${ this.lat }`);
  }
 
   public selectedCategory;
@@ -28,10 +35,7 @@ export class InputFormComponent implements OnInit {
   public budget;
 
   public executeSearch(){
-    this.router.navigate(['/home'], { queryParams: { category: this.selectedCategory, travelers: this.numTravelers, maxPrice: this.budget } });
-    console.log(this.location);
-
-    // this.location.go("append");
+    this.router.navigate(['/home'], { queryParams: { category: this.selectedCategory, travelers: this.numTravelers, maxPrice: this.budget, lng: this.lng, lat: this.lat} });
   }
 
 }

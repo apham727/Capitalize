@@ -58,6 +58,19 @@ export class ArticleListComponent {
     //   this.totalPages = Array.from(new Array(Math.ceil(data.articlesCount / this.limit)), (val, index) => index + 1);
     // });
 
+
+    //Get values from queryParams
+    const urlParams = new URLSearchParams(window.location.search);
+    const selectedCat = urlParams.get('category');
+    const travelers = urlParams.get('travelers');
+    const price = urlParams.get('maxPrice');
+    const lat = urlParams.get('lat');
+    const lng =  urlParams.get('lng');
+
+    console.log("a;lsdjf;alskdjf")
+    
+  
+
     // LOGIC TO GENERATE ARTICLE LIST
     this.http.get("assets/SampleResponse.json")
     .subscribe(
