@@ -1,0 +1,213 @@
+[
+    {
+        "destination": "Honululu",
+        "destinationphoto": "https://www.nationalgeographic.com/content/dam/travel/2018-digital/city-guides-2018/honolulu-hawaii/waikki-beach-honolulu-hawaii.jpg",
+        "price": 763.38, 
+        "departure-date": "9/1/2019", 
+        "return-date": "9/8/2019", 
+        "food": {
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Duke's Waikiki",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gSKZELvdu7rxfQNVzC4l_g/o.jpg",
+                    "url": "https://www.yelp.com/biz/dukes-waikiki-honolulu-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Marukame Udon",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iTBFTGVIB9nV9tg1LeK9AQ/o.jpg",
+                    "url": "https://www.yelp.com/biz/marukame-udon-honolulu?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+            ]
+        }, 
+        "hotel": {   
+            "name": "CASTLE PACIFIC MARINA INN",
+            "price": "165.20",
+            "address": "2628 WAIWAI LOOP",
+            "city": "HONOLULU",
+            "state": "HI",
+            "postalCode": "96819",
+            "phone": "1-808-836-1131"
+        },
+        "flight": {
+            "cost": "598.18",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "HNL",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "HNL",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        }
+    },
+    {
+        "destination": "Miami",
+        "destinationphoto": "https://img1.coastalliving.timeinc.net/sites/default/files/styles/landscape_3_2/public/image/2017/01/main/miami-florida-luxury-destination-2017-144863422.jpg",
+        "price": 341.61, 
+        "departure-date": "9/1/2019", 
+        "return-date": "9/8/2019", 
+        "food": {
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Red Carpet Italian",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/B0bSflWbCXxCdliPobHqtQ/o.jpg",
+                    "url": "https://www.yelp.com/biz/red-carpet-italian-miami?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Crazy About You",
+                    "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YYPRTEaq2U9EoWC9IsirFA/o.jpg",
+                    "url": "https://www.yelp.com/biz/crazy-about-you-miami-3?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+            ]
+        },
+        "hotel": {
+            "name": "HAMPTON INN COCONUT GROVE",
+            "price": "134.47",
+            "address": "2800 SW 28 TERRACE",
+            "city": "MIAMI",
+            "state": "FL",
+            "postalCode": "33133",
+            "phone": "1-305-448-2800"
+        },
+        "flight": {
+            "cost": "187.14",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "LGA",
+                "departureFlightId": "DL 723",
+                "departureDate": "9/1/2019",
+                "departureTime": "3:45 PM",
+                "arrivalLoc": "MIA",
+                "arrivalFlightId": "DL 723",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "6:59 PM"
+            },
+            "returnFlight": {
+                "numConnections": 0,
+                "departureLoc": "MIA",
+                "departureFlightId": "DL 2151",
+                "departureDate": "9/8/2019",
+                "departureTime": "7:15 AM",
+                "arrivalLoc": "LGA",
+                "arrivalFlightId": "DL 2151",
+                "arrivalDate": "9/8/2019",
+                "arrivalTime": "10:13 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        } 
+    },
+    {
+        "destination": "Venice Beach",
+        "destinationphoto": "https://www.backpackerswanderlust.com/wp-content/uploads/2017/12/10847654_10204384841915160_2662928951393669832_o-min-min.jpg",
+        "price": 756.09, 
+        "departure-date": "9/1/2019", 
+        "return-date": "9/8/2019", 
+        "food": {
+                "avgPrice": 20,
+                "restaurants": [
+                    {
+                        "name": "Colapasta",
+                        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+                        "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                    },
+                    {
+                        "name": "Manchego",
+                        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+                        "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                    }
+                ]
+            
+        },
+        "hotel":  {
+            "name": "MARINA DEL REY MARRIOTT",
+            "price": "308.13",
+            "address": "4100 ADMIRALTY WAY",
+            "city": "MARINA DEL REY",
+            "state": "CA",
+            "postalCode": "90292",
+            "phone": "1-310-3013000"
+        },
+        "flight": {
+            "cost": "447.96",
+            "departingFlight": {
+                "numConnections": 1,
+                "departureLoc": "EWR",
+                "departureFlightId": "SY 234",
+                "departureDate": "9/1/2019",
+                "departureTime": "11:40 AM",
+                "arrivalLoc": "LAX",
+                "arrivalFlightId": "SY 425",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:00 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "LAX",
+                "departureFlightId": "SY 430",
+                "departureDate": "9/8/2019",
+                "departureTime": "2:40 AM",
+                "arrivalLoc": "EWR",
+                "arrivalFlightId": "SY 233",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "10:50 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        } 
+    }
+]

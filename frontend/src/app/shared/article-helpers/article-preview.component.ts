@@ -9,6 +9,7 @@ import { Article } from '../../core';
 @Component({
   selector: 'app-article-preview',
   templateUrl: './article-preview.component.html',
+  styleUrls: ['./article-preview.component.css']
 })
 
 export class ArticlePreviewComponent {
@@ -17,7 +18,6 @@ export class ArticlePreviewComponent {
   }
   public imagesUrl;
   @Input() article: Article;
-  @Input() selectedCat;
   
 
 

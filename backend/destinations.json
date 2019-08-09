@@ -163,6 +163,14 @@
       "city": "Washington DC",
       "iata": "IAD",
       "state": "DC"
+    },
+    {
+      "longitude": "28.4743",
+      "latitude": "-81.4678",
+      "name": "Universal Studios Orlando",
+      "city": "Orlando",
+      "iata": "ORL",
+      "state": "FL"
     }
   ],
   "historical": [
