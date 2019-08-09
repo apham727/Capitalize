@@ -1,17 +1,17 @@
-<div class="article-preview">
+<div style="width: 65vw" class="article-preview">
  
 
   <a [routerLink]="['/package']" [queryParams]={name:article.destination} class="preview-link">
-    <h1>{{ article.destination }}</h1>
-    <!-- <p>{{ article.description }}</p> -->
+    <p style="font-size: 10vh; margin-top: 3vh; color: black">{{ article.destination }}</p>
     <ul class="tag-list">
     </ul>
     <br/> 
+    
+      <img style="margin-left: 50%; height: 40vh" src={{article.destinationphoto}}>
+    
+    <p style="font-size: 5vh; color: black">${{ article.price }}</p>
   </a>
-  <div style="margin-left: 90%;">
-    <img src={{article.destinationphoto}}>
-  </div>
-  <h2>${{ article.price }}</h2>
+  
 
   
 
