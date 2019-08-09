@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
+import { TransferService } from '../core';
+
 
 @Component({
   selector: 'app-package',
@@ -12,7 +14,8 @@ export class PackageComponent implements OnInit {
   package; // this will store the json response
 
     constructor(
-      private http: HttpClient) { }
+      private http: HttpClient, 
+      private transferService: TransferService) { }
 
   ngOnInit() {
 
@@ -26,6 +29,10 @@ export class PackageComponent implements OnInit {
         
       }
     );
+
+    var data = this.transferService.getData();       
+    console.log("DATA IN ARTICLE");
+    console.log(data);
   }
 
 }

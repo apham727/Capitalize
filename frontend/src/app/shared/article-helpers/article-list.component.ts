@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 
-import { Article, ArticleListConfig, ArticlesService } from '../../core';
+import { Article, ArticleListConfig, ArticlesService, TransferService } from '../../core';
 @Component({
   selector: 'app-article-list',
   styleUrls: ['article-list.component.css'],
@@ -11,6 +11,7 @@ import { Article, ArticleListConfig, ArticlesService } from '../../core';
 export class ArticleListComponent {
   constructor (
     private articlesService: ArticlesService,
+    private transferService:TransferService,
     private http: HttpClient
   ) {}
 
@@ -32,6 +33,13 @@ export class ArticleListComponent {
 
   // STORES THE PACKAGES LIST 
   packages;
+
+  //other shit
+  selectedCat;
+  travelers;
+  price;
+  lat;
+  lng;
 
 
   setPageTo(pageNumber) {
@@ -61,11 +69,13 @@ export class ArticleListComponent {
 
     //Get values from queryParams
     const urlParams = new URLSearchParams(window.location.search);
-    const selectedCat = urlParams.get('category');
-    const travelers = urlParams.get('travelers');
-    const price = urlParams.get('maxPrice');
-    const lat = urlParams.get('lat');
-    const lng =  urlParams.get('lng');
+    this.selectedCat = urlParams.get('category');
+    this.travelers = urlParams.get('travelers');
+    this.price = urlParams.get('maxPrice');
+    this.lat = urlParams.get('lat');
+    this.lng =  urlParams.get('lng');
+
+    
   
 
     // LOGIC TO GENERATE ARTICLE LIST
@@ -73,7 +83,17 @@ export class ArticleListComponent {
     .subscribe(
       result => {
         this.packages = result
+        this.transferService.setData(this.packages);
+        console.log("packages");
+        console.log(this.packages)
       }
     );
+
+
+    
+
+    console.log("GET REQUEST");
+    console.log("localhost:3000?" + "category=" + this.selectedCat + "&budget=" + this.price + "&numPeople=" + this.travelers + "&location=Richmond,VA")
+    this.http.get("localhost:3000?" + "category=" + this.selectedCat + "&budget=" + this.price + "&numPeople=" + this.travelers + "&location=Richmond,VA")
   }
 }
