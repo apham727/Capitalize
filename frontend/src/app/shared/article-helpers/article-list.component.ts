@@ -73,8 +73,6 @@ export class ArticleListComponent {
     .subscribe(
       result => {
         this.packages = result
-        
-        
       }
     );
   }
