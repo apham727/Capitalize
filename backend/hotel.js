@@ -28,10 +28,12 @@ router.get('/', async function (req, res) {
     }
     let string_arr = await Promise.all(promise_arr);
 
-    let json_string = string_arr.join('');
+    //let json_string = string_arr.join('');
+    let json_string = string_arr.join(',');
 
     // res.send(json_string);
     fs.writeFileSync('hotel.json', json_string);
+    console.log("test");
 
 })
 
