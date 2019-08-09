@@ -66,9 +66,6 @@ export class ArticleListComponent {
     const price = urlParams.get('maxPrice');
     const lat = urlParams.get('lat');
     const lng =  urlParams.get('lng');
-
-    console.log("a;lsdjf;alskdjf")
-    
   
 
     // LOGIC TO GENERATE ARTICLE LIST

@@ -37,5 +37,4 @@ export class InputFormComponent implements OnInit {
   public executeSearch(){
     this.router.navigate(['/home'], { queryParams: { category: this.selectedCategory, travelers: this.numTravelers, maxPrice: this.budget, lng: this.lng, lat: this.lat} });
   }
-
 }
