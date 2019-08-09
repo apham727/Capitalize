@@ -17,11 +17,11 @@ export class ExpenseTrackerComponent implements OnInit {
   public amountToAdd;
   public amountCategory;
 
-  public hotels = 100;
-  public transportation = 100;
-  public flight = 100;
-  public food = 100;
-  public attractions = 100;
+  public hotels = 150;
+  public transportation = 75;
+  public flight = 200;
+  public food = 50;
+  public attractions = 200;
   public other = 100;
 
 
