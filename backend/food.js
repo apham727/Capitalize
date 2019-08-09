@@ -23,6 +23,7 @@ function sleep(ms) {
 
 
 //return json results given category
+
 async function getListOfRestaurants(category){
   var i;
   var destinations = destinations_by_category[category];
@@ -154,6 +155,8 @@ function calcAvgPrice(results){
 //number of dollar signs, avg price, name, image url, yelp link
 
 getListOfRestaurants(category);
+
+
 
 
 

@@ -13,7 +13,7 @@ var departureDate = '2019-09-02';
 var returnDate = '2019-09-09';
 var adults = 1;
 
-var destinationArray = destinations_by_category.categories[0][category];
+var destinationArray = destinations_by_category[category];
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
