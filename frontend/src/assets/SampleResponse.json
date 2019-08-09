@@ -1,8 +1,8 @@
 [
     {
-        "destination": "Csat",
+        "destination": "Houston",
         "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
-        "price": 10000, 
+        "price": 1577, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
@@ -71,9 +71,9 @@
         
     },
     {
-        "destination": "New Place",
-        "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
-        "price": 10000, 
+        "destination": "New York",
+        "destinationphoto": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+        "price": 3423, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
@@ -142,9 +142,9 @@
         
     },
     {
-        "destination": "Place",
-        "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
-        "price": 10000, 
+        "destination": "Chicago",
+        "destinationphoto": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1413&q=80",
+        "price": 2143, 
         "departure-date": "2019-07-20", 
         "return-date": "2019-07-24", 
         "food": {
