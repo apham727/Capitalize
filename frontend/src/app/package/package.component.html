@@ -1,16 +1,42 @@
 <div class="article-page">
 
-  <div class="banner" style="background-color: white; margin: 0px; padding: 0px">
-    <h1>{{ package.destination }}</h1>
+  <div class="banner" style="background-color: white">
+    <div class="container">
+      <h1>{{ package.destination }}</h1>
+
+      <angular-image-slider [images]="carouselImages"></angular-image-slider>
+    </div>
+    
   </div>
 
-  <div class="container">
-    <angular-image-slider [images]="carouselImages"></angular-image-slider>
-  </div>
+  <h1>Your Itinerary</h1>
 
-  <div class="content"> 
-    <h2>Flight</h2>
-    <h6>Price: </h6>
+  <div style="margin-left: 25vw;"class="content"> 
+    <h2><strong>Air Travel</strong></h2>
+    <h3>Price: ${{ package.flight.cost }} </h3>
+    <br>
+    
+    <h2>Departing Flight</h2>
+    <h4>Flight Number: {{ package.flight.departingFlight.departureFlightId }}</h4>
+    <h4>Depart From: {{ package.flight.departingFlight.departureLoc }}</h4>
+    <h4>Arrive At: {{ package.flight.departingFlight.arrivalLoc }}</h4> 
+  </div>
+  <br/> 
+
+  <div style="margin-left: 25vw;"class="content"> 
+    <h2>Hotel</h2>
+    <h3>{{ package.hotel.name }}</h3>
+    <h4>Price: ${{ package.hotel.price }} </h4>
+    <h4>Address: <br> {{ package.hotel.address }} <br/> {{ package.hotel.city }}, {{package.hotel.state}} {{package.hotel.postalCode}}</h4>
+    <h4>Phone: {{package.hotel.phone}}</h4>
+  
+  </div>
+<br/>
+  <div style="margin-left: 25vw;"class="content"> 
+    <h2>Attractions</h2>
+    <ul> 
+      <li></li>
+    </ul>
   </div>
 
 

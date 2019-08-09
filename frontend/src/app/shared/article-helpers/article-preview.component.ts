@@ -17,6 +17,10 @@ export class ArticlePreviewComponent {
   }
   public imagesUrl;
   @Input() article: Article;
+  @Input() selectedCat;
+  
+
+
   images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
 
   onToggleFavorite(favorited: boolean) {
@@ -28,8 +32,5 @@ export class ArticlePreviewComponent {
     }
   }
 
-  goToPackage(id) {
-    this.router.navigate(['/package'], { queryParams: { id: id } });
-  }
 
 }
