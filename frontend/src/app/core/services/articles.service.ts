@@ -28,11 +28,15 @@ export class ArticlesService {
     );
   }
 
+  // do article get call and parsing here
+
   get(slug): Observable<Article> {
     return this.apiService.get('/articles/' + slug)
       .pipe(map(data => data.article));
   }
 
+  // DONT NEED ANY OF THIS BELOW
+  
   destroy(slug) {
     return this.apiService.delete('/articles/' + slug);
   }

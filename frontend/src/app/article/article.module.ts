@@ -7,11 +7,16 @@ import { ArticleResolver } from './article-resolver.service';
 import { MarkdownPipe } from './markdown.pipe';
 import { SharedModule } from '../shared';
 import { ArticleRoutingModule } from './article-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
+
+import { SliderModule } from '../slider/slider.module';
 @NgModule({
   imports: [
     SharedModule,
-    ArticleRoutingModule
+    ArticleRoutingModule,
+    SliderModule,
+    HttpClientModule
   ],
   declarations: [
     ArticleComponent,
