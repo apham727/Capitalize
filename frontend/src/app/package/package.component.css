@@ -1,8 +1,13 @@
 h1 {
     color: #004977 !important;
     font-size: 3.5vw !important;
+    text-align: center;
+    padding: 15px;
 }
 
 .container {
     text-align: center;
 }
+
+
+

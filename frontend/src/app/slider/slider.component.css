@@ -1,6 +1,7 @@
 #container{
    position: relative;
    overflow-x: hidden;
+   width: 100%;
 }
 #grid {
   display: grid;
