@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { ActivatedRoute } from '@angular/router';
+
 
 import { TransferService } from '../core';
 
@@ -14,6 +16,7 @@ export class PackageComponent implements OnInit {
   package; // this will store the json response
 
     constructor(
+    private route: ActivatedRoute,
       private http: HttpClient, 
       private transferService: TransferService) { }
 
@@ -33,6 +36,17 @@ export class PackageComponent implements OnInit {
     var data = this.transferService.getData();       
     console.log("DATA IN ARTICLE");
     console.log(data);
+
+    console.log("here")
+    var dest = this.route.snapshot.paramMap.get("destination")
+    for (let pack in Object.keys(data)) {
+      if (data.destination == dest) {
+          this.package = data[pack]
+      }
+    }
+
+    console.log("NEW PACK")
+    console.log(this.package)
   }
 
 }

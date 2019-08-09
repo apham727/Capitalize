@@ -61,6 +61,17 @@ export class ArticleComponent implements OnInit {
     console.log("DATA IN ARTICLE");
     console.log(data);
 
+    console.log("here")
+    var dest = this.route.snapshot.paramMap.get("destination")
+    for (let pack in Object.keys(data)) {
+      if (data.destination == dest) {
+          this.package = pack
+      }
+    }
+
+    console.log("NEW PACK")
+    console.log(this.package)
+
 
     // this.http.get("assets/SampleResponse.json")
     //   .subscribe(

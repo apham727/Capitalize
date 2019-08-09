@@ -17,7 +17,6 @@ export class ArticlePreviewComponent {
   }
   public imagesUrl;
   @Input() article: Article;
-  @Input() selectedCat;
   
 
 
