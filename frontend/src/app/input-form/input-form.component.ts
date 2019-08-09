@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-input-form',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private location: Location, private router: Router) { }
 
   ngOnInit() {
     if (navigator.geolocation) {
@@ -26,7 +28,10 @@ export class InputFormComponent implements OnInit {
   public budget;
 
   public executeSearch(){
-    
+    this.router.navigate(['/home']);
+    console.log(this.location);
+
+    // this.location.go("append");
   }
 
 }
