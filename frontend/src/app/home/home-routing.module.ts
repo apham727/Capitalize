@@ -5,7 +5,7 @@ import { HomeAuthResolver } from './home-auth-resolver.service';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomeComponent,
     resolve: {
       isAuthenticated: HomeAuthResolver
