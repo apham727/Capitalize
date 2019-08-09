@@ -20,11 +20,15 @@
                 }
             ]
         }, 
-        "hotel": {
-            "cost": 200, 
-            "address": "6360 Main Street, Houston, TX",
-            "imageURL": "https://picsum.photos/id/237/200/300" 
-        },
+        "hotel": {   
+            "name": "CASTLE PACIFIC MARINA INN",
+            "price": "165.20",
+            "address": "2628 WAIWAI LOOP",
+            "city": "HONOLULU",
+            "state": "HI",
+            "postalCode": "96819",
+            "phone": "1-808-836-1131"
+         },
         "flight": {
             "cost": "598.1871.18",
             "departingFlight": {

@@ -3,6 +3,11 @@ var app = express();
 var hotel_route = require('./hotel');
 
 app.get('/', function (req, res) {
+  console.log(req.query.category);
+  console.log(req.query.budget);
+  console.log(req.query.numPeople);
+  console.log(req.query.location);
+
   res.send('Hello World!');
 });
 
