@@ -80,15 +80,16 @@
             "avgPrice": 20,
             "restaurants": [
                 {
-                    "name": "Colapasta",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
-                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
-                },
-                {
                     "name": "Manchego",
                     "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
                     "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Colapasta",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
                 }
+                
             ]
         }, 
         "hotel": {   
@@ -151,9 +152,9 @@
             "avgPrice": 20,
             "restaurants": [
                 {
-                    "name": "Colapasta",
-                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
-                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                    "name": "Marukame Udon",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iTBFTGVIB9nV9tg1LeK9AQ/o.jpg",
+                    "url": "https://www.yelp.com/biz/marukame-udon-honolulu?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
                 },
                 {
                     "name": "Manchego",
