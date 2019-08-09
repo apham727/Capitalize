@@ -23,6 +23,10 @@ export class HomeComponent implements OnInit {
   tags: Array<string> = [];
   tagsLoaded = false;
 
+  public newSearch(){
+    this.router.navigate(['/']);
+  }
+  
   ngOnInit() {
     this.userService.isAuthenticated.subscribe(
       (authenticated) => {
