@@ -1,10 +1,11 @@
 <div class="article-page">
 
-  <div class="banner">
+  <div class="banner" style="background-color: white">
     <div class="container">
-      <h1>{{ article.title }}</h1>
+      <h1>{{ package.destination }}</h1>
 
-      
+      <angular-image-slider [images]="carouselImages"></angular-image-slider>
+
     </div>
   </div>
 
@@ -12,58 +13,10 @@
 
     <div class="row article-content">
       <div class="col-md-12">
-
-        <div [innerHTML]="article.body | markdown"></div>
-
-        <ul class="tag-list">
-          <li *ngFor="let tag of article.tagList"
-            class="tag-default tag-pill tag-outline">
-            {{ tag }}
-          </li>
-        </ul>
-
       </div>
     </div>
 
     <hr />
-
-    <div class="article-actions">
-     
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-md-8 offset-md-2">
-
-        <div *appShowAuthed="true">
-          <app-list-errors [errors]="commentFormErrors"></app-list-errors>
-          <form class="card comment-form" (ngSubmit)="addComment()">
-            <fieldset [disabled]="isSubmitting">
-              <div class="card-block">
-                <textarea class="form-control"
-                  placeholder="Write a comment..."
-                  rows="3"
-                  [formControl]="commentControl"
-                ></textarea>
-              </div>
-              <div class="card-footer">
-                <img [src]="currentUser.image" class="comment-author-img" />
-                <button class="btn btn-sm btn-primary" type="submit">
-                 Post Comment
-                </button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-
-
-        <app-article-comment
-          *ngFor="let comment of comments"
-          [comment]="comment"
-          (deleteComment)="onDeleteComment(comment)">
-        </app-article-comment>
-
-      </div>
-    </div>
 
   </div>
 </div>

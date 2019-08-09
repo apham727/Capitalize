@@ -3,3 +3,15 @@
     color: red;
     margin-left: 20px;
 }
+
+.container {
+    padding: 15px 5px;
+}
+
+
+.banner {
+    background-color: #004977;
+    font-family: "Optimist";
+    font-weight: normal;
+    height: 50%;
+  }

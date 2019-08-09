@@ -1,6 +1,6 @@
-<nav class="navbar navbar-light">
-  <div class="container">
-    <a class="navbar-brand" routerLink="/">Capitalize</a>
+<nav class="navbar navbar-light" style="padding: 0px">
+  <div class="container" >
+      <img src="assets/logo.png" style="width: 13%; margin-top: 1%">
 
     <!-- Show this for logged out users -->
     <ul *appShowAuthed="false"
@@ -8,7 +8,7 @@
 
       <li class="nav-item">
         <a class="nav-link"
-          routerLink="/">
+          routerLink="/home">
           Home
         </a>
       </li>
@@ -63,4 +63,12 @@
     </ul>
 
   </div>
+
+  <div class="banner" style="margin: 0px;" *appShowAuthed="false">
+    <div class="container">
+      <h1 class="logo-font">Capitalize</h1>
+      <p>Capitalize on your Capital One card savings with a budget vacation</p>
+    </div>
+  </div>
+
 </nav>

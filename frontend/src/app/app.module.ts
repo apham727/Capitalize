@@ -18,9 +18,10 @@ import { CoreModule } from './core/core.module';
 import { ExpenseTrackerComponent } from './expense-tracker/expense-tracker.component';
 import { InputFormComponent } from './input-form/input-form.component';
 import { ChartsModule } from 'ng2-charts';
+import { PackageComponent } from './package/package.component';
 
 @NgModule({
-  declarations: [AppComponent, FooterComponent, HeaderComponent, ExpenseTrackerComponent, InputFormComponent],
+  declarations: [AppComponent, FooterComponent, HeaderComponent, ExpenseTrackerComponent, InputFormComponent, PackageComponent],
   imports: [
     BrowserModule,
     CoreModule,
