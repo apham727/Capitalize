@@ -43,7 +43,7 @@ async function getFlightData() {
             nonStop: false
         }).then(function(response){
             var flightData = response.data[0].offerItems[0];
-            var totalCost = flightData.price.total + flightData.price.totalTaxes;
+            var totalCost = parseInt(flightData.price.total, 10) + parseInt(flightData.price.totalTaxes, 10);
 
             //To Flight
             var to_numConnections = flightData.services[0].segments.length - 1;
@@ -108,7 +108,7 @@ async function getFlightData() {
                 if (err){
                     console.log(err);
                 } else {
-                    modified_obj = JSON.parse(data); //now it an object
+                    var modified_obj = JSON.parse(data); //now it an object
                     modified_obj.flights.push(flightObject); //add some data
                     fs.writeFile("./flights.json", JSON.stringify(modified_obj, null, 4), (err) => {
                         if (err) {
@@ -146,3 +146,6 @@ function timeConvert (time) {
 }
   
 getFlightData();
+
+
+

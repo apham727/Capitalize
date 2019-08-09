@@ -3,13 +3,15 @@ import { FormControl } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
+
 import {
   Article,
   ArticlesService,
   Comment,
   CommentsService,
   User,
-  UserService
+  UserService, 
+  TransferService
 } from '../core';
 
 @Component({
@@ -31,14 +33,15 @@ export class ArticleComponent implements OnInit {
   carouselImages = []
   package; // this will store the json response
   
-
   constructor(
     private route: ActivatedRoute,
     private articlesService: ArticlesService,
     private commentsService: CommentsService,
     private router: Router,
     private userService: UserService,
-    private http: HttpClient
+    private http: HttpClient,
+    private transferService:TransferService,
+
   ) { }
     public imagesUrl;
 
@@ -54,17 +57,23 @@ export class ArticleComponent implements OnInit {
     //   'https://s-media-cache-ak0.pinimg.com/originals/73/f3/08/73f30861d214eea1d6c5d99fe72b3053.jpg',
     //   'https://bmj2k.files.wordpress.com/2011/04/heroes.jpg'
     // ];
+    var data = this.transferService.getData();       
+    console.log("DATA IN ARTICLE");
+    console.log(data);
 
-    this.http.get("assets/SampleResponse.json")
-      .subscribe(
-        result => {
-          this.package = result[0]
-          this.carouselImages.push(this.package["destinationphoto"])
-          this.carouselImages.push(this.package["destinationphoto"])
-          this.carouselImages.push(this.package["destinationphoto"])
+
+    // this.http.get("assets/SampleResponse.json")
+    //   .subscribe(
+    //     result => {
+    //       this.package = result[0]
+    //       this.carouselImages.push(this.package["destinationphoto"])
+    //       this.carouselImages.push(this.package["destinationphoto"])
+    //       this.carouselImages.push(this.package["destinationphoto"])
           
-        }
-      );
+    //     }
+    //   );
+
+      
       
   }
 
