@@ -76,7 +76,7 @@ export class ArticleListComponent {
     this.lng =  urlParams.get('lng');
 
     // LOGIC TO GENERATE ARTICLE LIST
-    this.http.get("assets/SampleResponse.json")
+    this.http.get("assets/Response.json")
     .subscribe(
       result => {
         this.packages = result
