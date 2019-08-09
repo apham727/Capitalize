@@ -1,24 +1,28 @@
 <div class="container">
   <br/> 
-  <h1 style="text-align: center">Enter your preferences</h1>
+  <h1 style="text-align: center">Enter your travel preferences</h1>
   <form>
     <div class="form-group">
       <label for="budget">Budget</label>
-      <input style="width: 30%; text-align: center" type="text" class="form-control" id="budget" required>
+      
+      <input name="budgetInput" [(ngModel)]="budget" style="width: 30%;" type="number" class="form-control" min="100.00" id="budget" required>
+    </div>
+    <div class="form-group">
+      <label for="budget">Number of Travelers</label>
+      
+      <input name="travelerInput" [(ngModel)]="numTravelers" style="width: 15%;" type="number" class="form-control" min="1" max="15" step="1" id="budget" required>
     </div>
 
     <div class="form-group">
       <label for="category">Category</label>
       <br/> 
-      <select name="cars">
+      <select [(ngModel)]="selectedCategory" name="category">
         <option value="beach">Beach/Resort</option>
         <option value="urban">Urban</option>
         <option value="family">Children/Family Friends</option>
         <option value="nature">Nature</option>
       </select>
    </div>
-
-    <button type="submit" class="btn btn-success">Submit</button>
-
+    <button (click)="executeSearch()" type="submit" class="btn btn-success">Submit</button>
   </form>
 </div>
