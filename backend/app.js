@@ -22,7 +22,6 @@ app.get('/', function (req, res) {
   numPeople = req.params.numPeople;
   budget = req.params.budget;
   location = req.params.location;
-  console.log(location);
 
   
   // Website you wish to allow to connect
@@ -66,7 +65,6 @@ fs.writeFile("./combined.json", JSON.stringify(emptyObject), (err) => {
       console.error(err);
       return;
   };
-  console.log("Empty JSON has been created");
 });
 
 
@@ -219,7 +217,6 @@ var foodObject;
                               console.error(err);
                               return;
                           };
-                          console.log("Combined JSON has been modified");
                       });
                       aggregate = JSON.stringify(returnObj)
                     
