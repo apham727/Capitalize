@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router()
 var Amadeus = require('amadeus');
-var destinations_by_category = require('./destinations.json')["categories"];
+var destinations_by_category = require('./destinations.json');
 const category = "beach";
 const fs = require('fs');
 
@@ -10,14 +10,14 @@ var amadeus = new Amadeus({
     clientSecret: 'waiHj6LNZAMmBcfY'
 });
 
-let json_string = "";
+let json_string = [];
 
 function timeout(){
-    return new Promise(resolve => setTimeout(resolve,1000));
+    return new Promise(resolve => setTimeout(resolve,1300));
 }
 
 router.get('/', async function (req, res) {
-    var destinations = destinations_by_category[0][category];
+    var destinations = destinations_by_category[category];
     var promise_arr= [];
 
     for (let i = 0; i < destinations.length; i++) {
@@ -28,9 +28,9 @@ router.get('/', async function (req, res) {
     }
     let string_arr = await Promise.all(promise_arr);
 
-    let json_string = string_arr.join('');
+    let json_string = '[' + string_arr.join(',') + ']';
 
-    // res.send(json_string);
+    res.send(json_string);
     fs.writeFileSync('hotel.json', json_string);
 
 })
