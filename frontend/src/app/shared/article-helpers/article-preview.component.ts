@@ -11,8 +11,6 @@ import { Article } from '../../core';
   templateUrl: './article-preview.component.html',
 })
 
-
-
 export class ArticlePreviewComponent {
   constructor(private router: Router) {
 

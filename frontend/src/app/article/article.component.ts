@@ -59,9 +59,9 @@ export class ArticleComponent implements OnInit {
       .subscribe(
         result => {
           this.package = result[0]
-          this.carouselImages.push(this.package["destination-photo"])
-          this.carouselImages.push(this.package["destination-photo"])
-          this.carouselImages.push(this.package["destination-photo"])
+          this.carouselImages.push(this.package["destinationphoto"])
+          this.carouselImages.push(this.package["destinationphoto"])
+          this.carouselImages.push(this.package["destinationphoto"])
           
         }
       );
