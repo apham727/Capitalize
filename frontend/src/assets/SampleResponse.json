@@ -71,7 +71,7 @@
         
     },
     {
-        "destination": "Cstat",
+        "destination": "New Place",
         "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
         "price": 10000, 
         "departure-date": "2019-07-20", 
@@ -107,7 +107,7 @@
         
     },
     {
-        "destination": "Cstat",
+        "destination": "Place",
         "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
         "price": 10000, 
         "departure-date": "2019-07-20", 
