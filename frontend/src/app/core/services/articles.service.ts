@@ -28,6 +28,8 @@ export class ArticlesService {
     );
   }
 
+  // do article get call and parsing here
+
   get(slug): Observable<Article> {
     return this.apiService.get('/articles/' + slug)
       .pipe(map(data => data.article));
