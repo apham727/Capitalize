@@ -1,0 +1,23 @@
+h1 {
+    color: #004977 !important;
+    font-size: 3.5vw !important;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.colContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+

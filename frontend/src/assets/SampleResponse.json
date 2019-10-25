@@ -1,0 +1,216 @@
+[
+    {
+        "destination": "Houston",
+        "destinationphoto": "https://realestate.usnews.com/dims4/USNEWS/3978333/2147483647/resize/640x420%3E/quality/85/?url=https://realestate.usnews.com/static-assets/cms/img/bestplaces/41303/TX_Houston_4.jpg",
+        "price": 1577.97, 
+        "departure-date": "2019-07-20", 
+        "return-date": "2019-07-24", 
+        "food": {
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Colapasta",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Manchego",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+                    "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+            ]
+        }, 
+        "hotel": {   
+            "name": "MARRIOT HOTEL",
+            "price": "165.20",
+            "address": "234 Main Street",
+            "city": "HOUSTON",
+            "state": "TX",
+            "postalCode": "96819",
+            "phone": "1-808-836-1131"
+        },
+        "flight": {
+            "cost": "1214.23",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "IAH",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "IAH",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        }
+        
+    },
+    {
+        "destination": "New York",
+        "destinationphoto": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+        "price": 3423.27, 
+        "departure-date": "2019-07-20", 
+        "return-date": "2019-07-24", 
+        "food": {
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Manchego",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+                    "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Colapasta",
+                    "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/e6KVuGPH2iq3lOYKDN2Akw/o.jpg",
+                    "url": "https://www.yelp.com/biz/colapasta-santa-monica?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+                
+            ]
+        }, 
+        "hotel": {   
+            "name": "HILTON HOTEL",
+            "price": "165.20",
+            "address": "26th Street",
+            "city": "NYC",
+            "state": "NY",
+            "postalCode": "96819",
+            "phone": "1-808-836-1131"
+        },
+        "flight": {
+            "cost": 756.20,
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "IAD",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "IAD",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        }
+        
+    },
+    {
+        "destination": "Chicago",
+        "destinationphoto": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1413&q=80",
+        "price": 2143.23, 
+        "departure-date": "2019-07-20", 
+        "return-date": "2019-07-24", 
+        "food": {
+            "avgPrice": 20,
+            "restaurants": [
+                {
+                    "name": "Marukame Udon",
+                    "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/iTBFTGVIB9nV9tg1LeK9AQ/o.jpg",
+                    "url": "https://www.yelp.com/biz/marukame-udon-honolulu?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                },
+                {
+                    "name": "Manchego",
+                    "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/-JckVWYsHzdD1jPgEefC5w/o.jpg",
+                    "url": "https://www.yelp.com/biz/manchego-santa-monica-2?adjust_creative=4j2OzFr5-WFUqPb0Ekf_cQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=4j2OzFr5-WFUqPb0Ekf_cQ"
+                }
+            ]
+        }, 
+        "hotel": {   
+            "name": "RADISON INN",
+            "price": "165.20",
+            "address": "2563 Ida B Wells Dr. ",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "96819",
+            "phone": "1-808-836-1131"
+        },
+        "flight": {
+            "cost": "423.35",
+            "departingFlight": {
+                "numConnections": 0,
+                "departureLoc": "JFK",
+                "departureFlightId": "HA 51",
+                "departureDate": "9/1/2019",
+                "departureTime": "10:00 AM",
+                "arrivalLoc": "ORD",
+                "arrivalFlightId": "HA 51",
+                "arrivalDate": "9/1/2019",
+                "arrivalTime": "8:50 PM"
+            },
+            "returnFlight": {
+                "numConnections": 1,
+                "departureLoc": "ORD",
+                "departureFlightId": "AS 866",
+                "departureDate": "9/8/2019",
+                "departureTime": "6:45 PM",
+                "arrivalLoc": "JFK",
+                "arrivalFlightId": "AS 460",
+                "arrivalDate": "9/9/2019",
+                "arrivalTime": "7:55 AM"
+            }
+        },
+        "attractions": {
+            "average-cost": "150",
+            "attraction-names": [
+                "Dog Park", 
+                "Water Slide", 
+                "Amusement Park",
+                "Museum", 
+                "Art Gallery"
+            ], 
+            "attractionsURL": "https://www.tripadvisor.com/Attraction_Products-g56003-Houston_Texas.html"
+        }, 
+        "transportation": {
+            "average-cost": 150
+        }
+        
+    }
+]

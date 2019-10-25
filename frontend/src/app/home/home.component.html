@@ -1,0 +1,20 @@
+<div class="home-page">
+  <div class="container page">
+    <div style="width: 100%" class="row">
+
+      <div>
+        <div class="feed-toggle">
+          <ul class="nav nav-pills outline-active">
+          </ul>
+        </div>
+        <br/> 
+        <div style="text-align: center;">
+            <button class="btn btn-info" (click)="newSearch()">New Search</button>
+        </div>
+        <br/> 
+        
+        <app-article-list [limit]="5" [config]="listConfig"></app-article-list>
+      </div>
+    </div>
+  </div>
+</div>

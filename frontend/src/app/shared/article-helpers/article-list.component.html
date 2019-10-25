@@ -1,0 +1,9 @@
+<app-article-preview
+  *ngFor="let article of packages"
+  [article]="article">
+</app-article-preview>
+
+<div class="app-article-preview"
+  [hidden]="!loading">
+  Loading articles...
+</div>

@@ -4,11 +4,20 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "author": "Andrew Pham",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "amadeus": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "reload": "^3.0.1",
+    "request": "^2.88.0",
+    "yelp-fusion": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
